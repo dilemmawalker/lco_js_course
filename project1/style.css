@@ -1,0 +1,17 @@
+body{
+    background-color: lightblue;
+}
+#container{
+    flex: auto;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    width: 200px;
+    background-color: white;
+    border: 5px solid darkblue;
+    margin:  auto;
+    top: 50%;
+    left: 50%;
+    /* position: fixed; */
+    display:flexbox;
+}
