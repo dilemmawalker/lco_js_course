@@ -17,7 +17,16 @@ let myele=document.querySelectorAll("p");
 //     val.remove();
 // });
 
-let newpara=document.createElement('p');
-newpara.textContent="new paragaraph!";
+// let newpara=document.createElement('p');
+// newpara.textContent="new paragaraph!";
 
-document.querySelector('body').appendChild(newpara);
+// document.querySelector('body').appendChild(newpara);
+
+// document.querySelector("#button1").addEventListener("click",(event)=>{
+//     console.log("hurrah, button clicked");
+//     event.target.textContent="I'm changed!!!";
+// }); 
+
+document.querySelector("#placeholder1").addEventListener("input",(val)=>{
+    console.log(val.target.value);
+})
