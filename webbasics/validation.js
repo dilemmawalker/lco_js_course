@@ -7,3 +7,8 @@ let myfun=function(a){
         console.log("not a valid input");
     }
 }
+
+let submitted=function(){
+    let val=document.querySelector("#input1").value;
+    console.log(val);
+}
